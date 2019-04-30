@@ -452,6 +452,3 @@ IMParts_Catalog.fileupload = {
     }
   }
 }
-
-// @@IM@@IgnoringRestOfFile
-module.exports = IMParts_Catalog
