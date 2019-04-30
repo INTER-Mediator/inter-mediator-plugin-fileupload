@@ -1,0 +1,25 @@
+{
+  "name": "inter-mediator-plugin-fileupload",
+  "version": "1.0.0",
+  "description": "INTER-Mediator plug-in to use the file uploading.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INTER-Mediator/inter-mediator-plugin-fileupload.git"
+  },
+  "keywords": [
+    "INTER-Mediator",
+    "upload"
+  ],
+  "dependencies": {
+  },
+  "author": "Masayuki Nii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/INTER-Mediator/inter-mediator-plugin-fileupload/issues"
+  },
+  "homepage": "https://github.com/INTER-Mediator/inter-mediator-plugin-fileupload#readme"
+}
