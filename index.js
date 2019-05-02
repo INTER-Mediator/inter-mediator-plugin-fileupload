@@ -388,9 +388,10 @@ IMParts_Catalog.fileupload = {
           inputNode.setAttribute('name', 'response')
           if (INTERMediatorOnPage.authUser.length > 0) {
             if (INTERMediatorOnPage.authHashedPassword && INTERMediatorOnPage.authChallenge) {
-              shaObj = new jsSHA(INTERMediatorOnPage.authHashedPassword, 'ASCII')
-              hmacValue = shaObj.getHMAC(INTERMediatorOnPage.authChallenge,
-                'ASCII', 'SHA-256', 'HEX')
+              shaObj = new jsSHA('SHA-256', 'TEXT')
+              shaObj.setHMACKey(INTERMediatorOnPage.authChallenge, 'TEXT')
+              shaObj.update(INTERMediatorOnPage.authHashedPassword)
+              hmacValue = shaObj.getHMAC('HEX')
               inputNode.value = hmacValue
             } else {
               inputNode.value = 'dummy'
