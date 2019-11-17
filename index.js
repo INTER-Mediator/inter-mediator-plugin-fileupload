@@ -14,16 +14,6 @@
  IMLibEventResponder, INTERMediatorLog, SHA1, jsSHA, IMLib, INTERMediatorOnPage */
 /* jshint -W083 */ // Function within a loop
 
-/**
- * @fileoverview IMParts_Catalog class is defined here.
- */
-/**
- *
- * Usually you don't have to instanciate this class with new operator.
- * @constructor
- */
-const IMParts_Catalog = {}
-
 IMParts_Catalog.fileupload = {
   html5DDSuported: false,
   progressSupported: false, // see http://www.johnboyproductions.com/php-upload-progress-bar/
