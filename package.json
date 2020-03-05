@@ -1,6 +1,6 @@
 {
   "name": "inter-mediator-plugin-fileupload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "INTER-Mediator plug-in to use the file uploading.",
   "main": "index.js",
   "scripts": {

@@ -28,7 +28,7 @@ IMParts_Catalog.fileupload = {
     var newId = parentNode.getAttribute('id') + '-e'
     var newNode = document.createElement('DIV')
     IMLibLocalContext.setValue('uploadFileSelect', 'false')
-    INTERMediatorLib.setClassAttributeToNode(newNode, '_im_fileupload')
+    newNode.setAttribute('class', '_im_fileupload')
     newNode.setAttribute('id', newId)
     this.ids.push(newId)
     if (this.forceOldStyleForm || (INTERMediator.isEdge && INTERMediator.ieVersion < 14)) {
